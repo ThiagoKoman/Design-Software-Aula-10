@@ -4,18 +4,18 @@
 using namespace std;
 
 void rotacao_horaria(int rpm, int segundos){
-	cout << "RPM: " << rpm << endl;
+	cout << "MTR RPM: " << rpm << endl;
 	cout << "Segundos: " << segundos << endl;
 	cout << endl;
 }
 
 void rotacao_antihoraria(int rpm, int segundos){
-	cout << "RPM: -" << rpm << endl;
+	cout << "MTR RPM: -" << rpm << endl;
 	cout << "Segundos: " << segundos << endl;
 	cout << endl;
 }
 
 void parar(){
-	cout << "Parando" << endl;
+	cout << "MTR Parando" << endl;
 	cout << endl;
 }
